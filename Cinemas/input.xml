@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Cinemas>
+    <Cinema name="Belarus" seats = "578" movies = "Metro, Avengers, Alisa, Masks" />
+    <Cinema name="Mir" seats = "564" movies = "Avengers, Alisa, Masks, Alps" />
+    <Cinema name="Moskva" seats = "1000" movies = "Metro, Frisca, Spider-man" />
+    <Cinema name="Avrora" seats = "500" movies = "Frisca, Avengers, Black Partner, Masks" />
+</Cinemas>

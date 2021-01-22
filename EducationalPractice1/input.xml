@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Candies>
+    <CandiesWithNuts>
+        <CandyWithNuts>
+            <weight>17</weight>
+            <percentOfSugar>29</percentOfSugar>
+            <name>Monblanc</name>
+            <namberOfNuts>1</namberOfNuts>
+        </CandyWithNuts>
+
+        <CandyWithNuts>
+            <weight>90</weight>
+            <percentOfSugar>30</percentOfSugar>
+            <name>AlpenGold</name>
+            <namberOfNuts>15</namberOfNuts>
+        </CandyWithNuts>
+
+        <CandyWithNuts>
+            <weight>21.3</weight>
+            <percentOfSugar>47</percentOfSugar>
+            <name>Rafaelo</name>
+            <namberOfNuts>1</namberOfNuts>
+        </CandyWithNuts>
+    </CandiesWithNuts>
+
+    <ChocolateCandies>
+        <ChocolateCandy>
+            <weight>26.5</weight>
+            <percentOfSugar>18</percentOfSugar>
+            <name>Alyonka</name>
+            <chocolateType>black</chocolateType>
+        </ChocolateCandy>
+
+        <ChocolateCandy>
+            <weight>15.0</weight>
+            <percentOfSugar>48</percentOfSugar>
+            <name>Stolichnyi</name>
+            <chocolateType>black</chocolateType>
+        </ChocolateCandy>
+
+        <ChocolateCandy>
+            <weight>27</weight>
+            <percentOfSugar>23</percentOfSugar>
+            <name>Minsk</name>
+            <chocolateType>white</chocolateType>
+        </ChocolateCandy>
+    </ChocolateCandies>
+
+    <Lollipops>
+        <Lollipop>
+            <weight>30</weight>
+            <percentOfSugar>60</percentOfSugar>
+            <name>Nalik</name>
+            <colour>red</colour>
+        </Lollipop>
+
+        <Lollipop>
+            <weight>16.50</weight>
+            <percentOfSugar>76.5</percentOfSugar>
+            <name>Kloon</name>
+            <colour>Yellow</colour>
+        </Lollipop>
+
+        <Lollipop>
+            <weight>30</weight>
+            <percentOfSugar>70</percentOfSugar>
+            <name>Maldor</name>
+            <colour>Green</colour>
+        </Lollipop>
+    </Lollipops>
+
+    <Marmalades>
+        <Marmalade>
+            <weight>51.2</weight>
+            <percentOfSugar>81</percentOfSugar>
+            <name>Mittu</name>
+            <fruit>Apple</fruit>
+        </Marmalade>
+
+        <Marmalade>
+            <weight>40.3</weight>
+            <percentOfSugar>45</percentOfSugar>
+            <name>Gandy</name>
+            <fruit>Lemon</fruit>
+        </Marmalade>
+
+        <Marmalade>
+            <weight>14.2</weight>
+            <percentOfSugar>56</percentOfSugar>
+            <name>Apies</name>
+            <fruit>Orange</fruit>
+        </Marmalade>
+    </Marmalades>
+</Candies>
