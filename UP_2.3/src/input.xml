@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student>
+        <surname>Petrov</surname>
+        <course>1</course>
+        <group>2</group>
+    </Student>
+
+    <Student>
+        <surname>Sidorov</surname>
+        <course>1</course>
+        <group>5</group>
+    </Student>
+
+    <Student>
+        <surname>Vasilkov</surname>
+        <course>2</course>
+        <group>1</group>
+    </Student>
+
+    <Student>
+        <surname>Ivanov</surname>
+        <course>1</course>
+        <group>1</group>
+    </Student>
+
+    <Student>
+        <surname>Kiselev</surname>
+        <course>2</course>
+        <group>2</group>
+    </Student>
+
+    <Student>
+        <surname>Bubkov</surname>
+        <course>2</course>
+        <group>2</group>
+    </Student>
+
+    <Student>
+        <surname>Apelsinov</surname>
+        <course>1</course>
+        <group>5</group>
+    </Student>
+</Students>
