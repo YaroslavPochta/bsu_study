@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="action"   >
+        <classes>
+            <class name = "action.parsingaction.ParsingTextToElementsAction">
+                <methods>
+                    <include  name = "parseToParagraphAction"/>
+                    <include  name = "parseToSentenceAction"/>
+                    <include  name = "parseToLexemeAction"/>
+                    <include  name = "parseToWordAndExpressionAction"/>
+                    <include  name = "parseToSymbolAction"/>
+                </methods>
+            </class>
+
+            <class name = "action.sortingaction.SortingAction">
+                <methods>
+                    <include  name = "sortingByNumberOfSentencesAction"/>
+                    <include  name = "sortingTextByLengthOfWordsAction"/>
+                    <include  name = "sortingLexemesByNumberOfEntranceAction"/>
+                </methods>
+            </class>
+
+            <class name = "action.calculateexpressionaction.CalculateExpressionAction">
+                <methods>
+                    <include  name = "calculateBitExpressionAction"/>
+                </methods>
+            </class>
+
+            <class name = "action.readingaction.ReadingAction">
+                <methods>
+                    <include  name = "readingFromFileAction"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
