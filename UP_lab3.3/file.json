@@ -1,0 +1,38 @@
+[
+  {
+    "object": {
+      "name": "object1",
+      "value": 1
+    }
+  },
+  {
+    "object": {
+      "name": "object2",
+      "value": 2
+    }
+  },
+  {
+    "object": {
+      "name": "object3",
+      "value": 3
+    }
+  },
+  {
+    "object": {
+      "name": "object4",
+      "value": 17
+    }
+  },
+  {
+    "object": {
+      "name": "object5",
+      "value": 7
+    }
+  },
+  {
+    "object": {
+      "name": "object6",
+      "value": 0
+    }
+  }
+]
