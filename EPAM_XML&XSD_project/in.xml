@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plant>
+    <flower name = "Rose">
+        <soil> grunt </soil>
+        <origin> Europe </origin>
+        <size> 10.2 </size>
+        <count-of-flowers> 1 </count-of-flowers>
+    </flower>
+
+    <fruit-plant name = "apple">
+        <soil> grunt </soil>
+        <origin> Europe </origin>
+        <weight> 250 </weight>
+        <season> allYear </season>
+        <growing-time> 90 </growing-time>
+    </fruit-plant>
+</plant>

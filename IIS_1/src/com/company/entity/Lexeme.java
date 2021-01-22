@@ -1,0 +1,24 @@
+package com.company.entity;
+
+public class Lexeme {
+	private final String name;
+	private final String value;
+
+	public Lexeme(String name, String value) {
+		this.name = name;
+		this.value = value;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	@Override
+	public String toString() {
+		return name + " = " + value;
+	}
+}

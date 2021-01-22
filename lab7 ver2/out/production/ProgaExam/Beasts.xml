@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Beasts>
+    <Beast>
+        <name>Chiken</name>
+        <habitat>Africa</habitat>
+        <production> Rat</production>
+    </Beast>
+    <Beast>
+        <name>Lion</name>
+        <habitat>Africa</habitat>
+        <production> Chiken, cow, pig, rat</production>
+    </Beast>
+    <Beast>
+        <name>Tiger</name>
+        <habitat>Africa</habitat>
+        <production>AAAAA, chiken, cow, pig, rat</production>
+    </Beast>
+    <Beast>
+        <name>Wolf </name>
+        <habitat>Europe</habitat>
+        <production>cow</production>
+    </Beast>
+    <Beast>
+        <name>Fox</name>
+        <habitat>Asia</habitat>
+        <production>rat, cow</production>
+    </Beast>
+    <Beast>
+        <name>Fox</name>
+        <habitat>AAAAAAA</habitat>
+        <production>chiken, cow, pig rat</production>
+    </Beast>
+    <Beast>
+        <name>Fox </name>
+        <habitat>Africa</habitat>
+        <production>Chiken, rat</production>
+    </Beast>
+    <Beast>
+        <name>Tiger</name>
+        <habitat>Europe</habitat>
+        <production>cow, pig, rat</production>
+
+    </Beast>
+    <Beast>
+        <name>AAaaa</name>
+        <habitat>Africa</habitat>
+        <production>rat</production>
+    </Beast>
+</Beasts>
