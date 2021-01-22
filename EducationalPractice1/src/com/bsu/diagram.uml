@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2052.944657258064" y="525.0">com.bsu.CandyGift</node>
+    <node x="1553.9744959677419" y="1116.0">com.bsu.logic.GiftConstructorByWeight</node>
+    <node x="501.7402889784953" y="669.5">com.bsu.Reader</node>
+    <node x="2472.974495967742" y="985.0">com.bsu.sort.SortByPercentOfSugar</node>
+    <node x="656.0" y="348.0">com.bsu.model.Lollipop</node>
+    <node x="2218.441868279569" y="371.0">com.bsu.sort.SortStrategy</node>
+    <node x="1203.879368279569" y="0.0">com.bsu.model.Candy</node>
+    <node x="1886.9744959677419" y="1116.0">com.bsu.logic.GiftConstructorBySugarWeight</node>
+    <node x="954.0000000000001" y="348.0">com.bsu.model.CandyWithNuts</node>
+    <node x="1928.3652889784953" y="1247.0">com.bsu.Main</node>
+    <node x="2231.974495967742" y="985.0">com.bsu.sort.SortByWeight</node>
+    <node x="342.0" y="348.0">com.bsu.model.Marmalade</node>
+    <node x="2713.974495967742" y="985.0">com.bsu.sort.SortBySugarMass</node>
+    <node x="0.0" y="348.0">com.bsu.model.ChocolateCandy</node>
+    <node x="1621.0" y="985.0">com.bsu.sort.SortByName</node>
+    <node x="1287.0" y="985.0">com.bsu.logic.GiftConstructorStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.bsu.model.Lollipop" target="com.bsu.model.Candy">
+      <point x="-69.25" y="-48.5" />
+      <point x="725.25" y="268.0" />
+      <point x="1255.854368279569" y="268.0" />
+      <point x="-63.52500000000009" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.sort.SortByWeight">
+      <point x="49.25" y="-37.0" />
+      <point x="2076.1152889784953" y="1207.0" />
+      <point x="2342.474495967742" y="1207.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.bsu.Reader" target="com.bsu.model.Lollipop">
+      <point x="25.875" y="-25.5" />
+      <point x="631.1152889784953" y="495.0" />
+      <point x="794.5" y="495.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortByWeight" target="com.bsu.sort.SortStrategy">
+      <point x="27.625" y="-25.5" />
+      <point x="2370.099495967742" y="505.0" />
+      <point x="2342.754368279569" y="505.0" />
+      <point x="13.8125" y="25.5" />
+    </edge>
+    <edge source="com.bsu.model.ChocolateCandy" target="com.bsu.model.Candy">
+      <point x="80.5" y="-48.5" />
+      <point x="241.5" y="238.0" />
+      <point x="1221.2043682795693" y="238.0" />
+      <point x="-98.17499999999995" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.sort.SortBySugarMass">
+      <point x="68.95000000000005" y="-37.0" />
+      <point x="2095.815288978495" y="1217.0" />
+      <point x="2824.474495967742" y="1217.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.bsu.Reader" target="com.bsu.model.Marmalade">
+      <point x="-25.875" y="-25.5" />
+      <point x="579.3652889784953" y="495.0" />
+      <point x="489.0" y="495.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.bsu.model.Marmalade" target="com.bsu.model.Candy">
+      <point x="73.5" y="-48.5" />
+      <point x="562.5" y="258.0" />
+      <point x="1244.3043682795692" y="258.0" />
+      <point x="-75.07500000000005" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Reader" target="com.bsu.model.Candy">
+      <point x="77.625" y="-25.5" />
+      <point x="682.8652889784953" y="505.0" />
+      <point x="943.5000000000001" y="505.0" />
+      <point x="943.5000000000001" y="288.0" />
+      <point x="1278.9543682795693" y="288.0" />
+      <point x="-40.424999999999955" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.logic.GiftConstructorStrategy">
+      <point x="-29.549999999999955" y="-37.0" />
+      <point x="1997.3152889784953" y="1197.0" />
+      <point x="1388.978494623656" y="1197.0" />
+      <point x="1388.978494623656" y="1096.0" />
+      <point x="1339.1666666666667" y="1096.0" />
+      <point x="-104.33333333333337" y="25.5" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorByWeight" target="com.bsu.CandyGift">
+      <point x="39.125" y="-25.5" />
+      <point x="1749.5994959677419" y="1086.0" />
+      <point x="1852.5" y="1086.0" />
+      <point x="1852.5" y="955.0" />
+      <point x="2111.044657258064" y="955.0" />
+      <point x="-66.40000000000009" y="170.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortStrategy" target="com.bsu.model.Candy">
+      <point x="0.0" y="-25.5" />
+      <point x="2328.941868279569" y="278.0" />
+      <point x="1394.4543682795693" y="278.0" />
+      <point x="75.07500000000027" y="104.0" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorBySugarWeight" target="com.bsu.CandyGift">
+      <point x="39.125" y="-25.5" />
+      <point x="2082.599495967742" y="1096.0" />
+      <point x="2141.816868279569" y="1096.0" />
+      <point x="2141.816868279569" y="965.0" />
+      <point x="2144.2446572580643" y="965.0" />
+      <point x="-33.200000000000045" y="170.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByWeight" target="com.bsu.CandyGift">
+      <point x="-27.625" y="-25.5" />
+      <point x="2314.849495967742" y="925.0" />
+      <point x="2227.2446572580643" y="925.0" />
+      <point x="49.799999999999955" y="170.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByPercentOfSugar" target="com.bsu.model.Candy">
+      <point x="82.875" y="-25.5" />
+      <point x="2666.349495967742" y="955.0" />
+      <point x="2974.130745967742" y="955.0" />
+      <point x="2974.130745967742" y="258.0" />
+      <point x="1417.5543682795692" y="258.0" />
+      <point x="98.17500000000018" y="104.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByName" target="com.bsu.model.Candy">
+      <point x="-82.875" y="-25.5" />
+      <point x="1648.625" y="915.0" />
+      <point x="1657.1875" y="915.0" />
+      <point x="1657.1875" y="308.0" />
+      <point x="1359.8043682795692" y="308.0" />
+      <point x="40.424999999999955" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.CandyGift">
+      <point x="9.849999999999909" y="-37.0" />
+      <point x="2036.7152889784952" y="1187.0" />
+      <point x="2210.474495967742" y="1187.0" />
+      <point x="2210.474495967742" y="955.0" />
+      <point x="2177.444657258064" y="955.0" />
+      <point x="0.0" y="170.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.Reader">
+      <point x="-88.64999999999986" y="-37.0" />
+      <point x="1938.2152889784954" y="1227.0" />
+      <point x="605.2402889784953" y="1227.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.bsu.CandyGift" target="com.bsu.sort.SortStrategy">
+      <point x="0.0" y="-170.0" />
+      <point x="2177.444657258064" y="485.0" />
+      <point x="2259.879368279569" y="485.0" />
+      <point x="-69.0625" y="25.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortByPercentOfSugar" target="com.bsu.sort.SortStrategy">
+      <point x="27.625" y="-25.5" />
+      <point x="2611.099495967742" y="495.0" />
+      <point x="2370.379368279569" y="495.0" />
+      <point x="41.4375" y="25.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortByName" target="com.bsu.sort.SortStrategy">
+      <point x="-27.625" y="-25.5" />
+      <point x="1703.875" y="475.0" />
+      <point x="2232.254368279569" y="475.0" />
+      <point x="-96.6875" y="25.5" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorBySugarWeight" target="com.bsu.model.Candy">
+      <point x="-39.125" y="-25.5" />
+      <point x="2004.3494959677419" y="1056.0" />
+      <point x="1610.5" y="1056.0" />
+      <point x="1610.5" y="318.0" />
+      <point x="1348.254368279569" y="318.0" />
+      <point x="28.875" y="104.0" />
+    </edge>
+    <edge source="com.bsu.model.CandyWithNuts" target="com.bsu.model.Candy">
+      <point x="75.25" y="-48.5" />
+      <point x="1179.75" y="308.0" />
+      <point x="1302.0543682795692" y="308.0" />
+      <point x="-17.325000000000045" y="104.0" />
+    </edge>
+    <edge source="com.bsu.CandyGift" target="com.bsu.model.Candy">
+      <point x="-49.799999999999955" y="-170.0" />
+      <point x="2127.6446572580644" y="465.0" />
+      <point x="2113.929368279569" y="465.0" />
+      <point x="2113.929368279569" y="288.0" />
+      <point x="1382.904368279569" y="288.0" />
+      <point x="63.52500000000009" y="104.0" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorByWeight" target="com.bsu.model.Candy">
+      <point x="-117.375" y="-25.5" />
+      <point x="1593.0994959677419" y="1086.0" />
+      <point x="1276.5" y="1086.0" />
+      <point x="1276.5" y="328.0" />
+      <point x="1325.154368279569" y="328.0" />
+      <point x="5.775000000000091" y="104.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortStrategy" target="com.bsu.CandyGift">
+      <point x="-13.8125" y="25.5" />
+      <point x="2315.129368279569" y="505.0" />
+      <point x="2277.044657258064" y="505.0" />
+      <point x="99.59999999999991" y="-170.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.model.CandyWithNuts">
+      <point x="-68.94999999999982" y="-37.0" />
+      <point x="1957.9152889784955" y="1217.0" />
+      <point x="1104.5" y="1217.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorByWeight" target="com.bsu.logic.GiftConstructorStrategy">
+      <point x="-39.125" y="-25.5" />
+      <point x="1671.3494959677419" y="1076.0" />
+      <point x="1443.5" y="1076.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortBySugarMass" target="com.bsu.CandyGift">
+      <point x="-82.875" y="-25.5" />
+      <point x="2741.599495967742" y="895.0" />
+      <point x="2277.044657258064" y="895.0" />
+      <point x="99.59999999999991" y="170.0" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorStrategy" target="com.bsu.model.Candy">
+      <point x="-78.25" y="-25.5" />
+      <point x="1365.25" y="328.0" />
+      <point x="1336.7043682795693" y="328.0" />
+      <point x="17.325000000000045" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.sort.SortStrategy">
+      <point x="88.65000000000009" y="-37.0" />
+      <point x="2115.5152889784954" y="1227.0" />
+      <point x="2945.474495967742" y="1227.0" />
+      <point x="2945.474495967742" y="475.0" />
+      <point x="2425.629368279569" y="475.0" />
+      <point x="96.6875" y="25.5" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorBySugarWeight" target="com.bsu.logic.GiftConstructorStrategy">
+      <point x="-117.375" y="-25.5" />
+      <point x="1926.0994959677419" y="1066.0" />
+      <point x="1547.8333333333335" y="1066.0" />
+      <point x="104.33333333333326" y="25.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortBySugarMass" target="com.bsu.sort.SortStrategy">
+      <point x="27.625" y="-25.5" />
+      <point x="2852.099495967742" y="485.0" />
+      <point x="2398.004368279569" y="485.0" />
+      <point x="69.0625" y="25.5" />
+    </edge>
+    <edge source="com.bsu.Reader" target="com.bsu.model.ChocolateCandy">
+      <point x="-77.625" y="-25.5" />
+      <point x="527.6152889784953" y="505.0" />
+      <point x="161.0" y="505.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.logic.GiftConstructorByWeight">
+      <point x="-9.849999999999909" y="-37.0" />
+      <point x="2017.0152889784954" y="1187.0" />
+      <point x="1710.4744959677419" y="1187.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.bsu.sort.SortBySugarMass" target="com.bsu.model.Candy">
+      <point x="82.875" y="-25.5" />
+      <point x="2907.349495967742" y="965.0" />
+      <point x="2985.130745967742" y="965.0" />
+      <point x="2985.130745967742" y="248.0" />
+      <point x="1429.104368279569" y="248.0" />
+      <point x="109.72499999999991" y="104.0" />
+    </edge>
+    <edge source="com.bsu.Main" target="com.bsu.model.Candy">
+      <point x="-49.25" y="-37.0" />
+      <point x="1977.6152889784953" y="1207.0" />
+      <point x="1265.5" y="1207.0" />
+      <point x="1265.5" y="318.0" />
+      <point x="1313.604368279569" y="318.0" />
+      <point x="-5.775000000000091" y="104.0" />
+    </edge>
+    <edge source="com.bsu.logic.GiftConstructorStrategy" target="com.bsu.CandyGift">
+      <point x="78.25" y="-25.5" />
+      <point x="1521.75" y="925.0" />
+      <point x="2061.2446572580643" y="925.0" />
+      <point x="-116.20000000000005" y="170.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByWeight" target="com.bsu.model.Candy">
+      <point x="82.87499999999994" y="-25.5" />
+      <point x="2425.349495967742" y="945.0" />
+      <point x="2963.130745967742" y="945.0" />
+      <point x="2963.130745967742" y="268.0" />
+      <point x="1406.004368279569" y="268.0" />
+      <point x="86.625" y="104.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByName" target="com.bsu.CandyGift">
+      <point x="27.625" y="-25.5" />
+      <point x="1759.125" y="935.0" />
+      <point x="2077.844657258064" y="935.0" />
+      <point x="-99.59999999999991" y="170.0" />
+    </edge>
+    <edge source="com.bsu.sort.SortByPercentOfSugar" target="com.bsu.CandyGift">
+      <point x="-27.625" y="-25.5" />
+      <point x="2555.849495967742" y="905.0" />
+      <point x="2260.444657258064" y="905.0" />
+      <point x="83.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4572188955422488" x="1745.996385129853" y="641.1714810971625" />
+  <SelectedNodes>
+    <node>com.bsu.model.Lollipop</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
